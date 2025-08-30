@@ -1,11 +1,12 @@
 # Color settings (hex-codes without the leading hash-tag)
+# Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503   
-  secondary-dark: 333
-  muted: 777
-
+  primary: ffa94d       # warm light orange (good for buttons/accents)
+  secondary: ffc078     # softer peachy orange for highlights
+  secondary-dark: cc7722 # deeper burnt orange for contrast (headings/nav)
+  muted: a6a6a6         # neutral gray for text
+  
 # Font Families
 font:
-  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  primary: 'Poppins, "Helvetica Neue", Helvetica, Arial, sans-serif'
+  secondary: 'Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif'
