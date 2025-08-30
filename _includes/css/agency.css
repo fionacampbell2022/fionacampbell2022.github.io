@@ -265,23 +265,18 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+---
+---
+
 header {
   text-align: center;
   color: #fff;
-  background-attachment: scroll; /* or change to fixed for parallax effect */
-  background: 
-    linear-gradient(
-      to bottom,
-      rgba(255, 169, 77, 0.4),   /* light orange overlay */
-      rgba(204, 119, 34, 0.55)   /* deeper orange overlay */
-    ),
-    url('{{ site.relative_url }}/img/illinoisheader.jpg') center center / cover no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  min-height: 80vh;      /* gives you a tall hero header */
-  padding-top: 100px;    /* clears space for fixed navbar */
+  background-attachment: scroll;
+  background:
+    linear-gradient(to bottom, rgba(255,169,77,.4), rgba(204,119,34,.55)),
+    url('{{ "/img/illinoisheader.jpg" | relative_url }}') center center / cover no-repeat;
+  min-height: 80vh;
+  padding-top: 100px;
   position: relative;
 }
 
