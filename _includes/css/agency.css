@@ -275,7 +275,7 @@ header {
       rgba(255, 169, 77, 0.4),   /* light orange overlay */
       rgba(204, 119, 34, 0.55)   /* deeper orange overlay */
     ),
-    url('{{ site.baseurl }}/img/illinoisheader.jpg') center center / cover no-repeat;
+    url('{{ site.relative_url }}/img/illinoisheader.jpg') center center / cover no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
